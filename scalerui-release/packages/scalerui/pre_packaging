@@ -1,0 +1,18 @@
+set -e -x
+
+source common/node-helper.sh
+
+# Setup NPM
+setup_npm
+
+ls ${BUILD_DIR}
+ls ${BUILD_DIR}/scalerui
+cd ${BUILD_DIR}/scalerui/view
+npm install
+npm rebuild node-sass
+npm run build 
+
+# Clean up NPM
+rm -rf common/node-helper.sh
+cleanup_npm
+

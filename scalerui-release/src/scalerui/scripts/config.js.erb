@@ -1,0 +1,18 @@
+window.g = {
+    restUrl_base: '<%= scalerui['view']['restUrl_base'] %>',
+    policy: {
+        scaling_rules: {
+            stat_window_secs_default: <%= scalerui['view']['policy']['scaling_rules']['stat_window_secs_default'] %>,
+            stat_window_secs_min: <%= scalerui['view']['policy']['scaling_rules']['stat_window_secs_min'] %>,
+            stat_window_secs_max: <%= scalerui['view']['policy']['scaling_rules']['stat_window_secs_max'] %>,
+
+            breach_duration_secs_default: <%= scalerui['view']['policy']['scaling_rules']['breach_duration_secs_default'] %>,
+            breach_duration_secs_min: <%= scalerui['view']['policy']['scaling_rules']['breach_duration_secs_min'] %>,
+            breach_duration_secs_max: <%= scalerui['view']['policy']['scaling_rules']['breach_duration_secs_max'] %>,
+
+            cool_down_secs_default: <%= scalerui['view']['policy']['scaling_rules']['cool_down_secs_default'] %>,
+            cool_down_secs_min: <%= scalerui['view']['policy']['scaling_rules']['cool_down_secs_min'] %>,
+            cool_down_secs_max: <%= scalerui['view']['policy']['scaling_rules']['cool_down_secs_max'] %>,
+        }
+    }
+}

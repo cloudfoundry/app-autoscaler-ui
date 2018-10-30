@@ -1,0 +1,6 @@
+---
+name: common
+
+files:
+- common/utils.sh
+- common/consul-helper.sh

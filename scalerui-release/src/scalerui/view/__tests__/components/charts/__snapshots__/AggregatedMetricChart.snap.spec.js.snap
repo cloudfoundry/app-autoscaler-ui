@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MetricChart renders MetricChart component correctly -- no lower 1`] = `null`;
+
+exports[`MetricChart renders MetricChart component correctly -- no upper 1`] = `null`;
+
+exports[`MetricChart renders MetricChart component correctly -- no upper no lower 1`] = `
+<div
+  className="bx--inline-notification bx--inline-notification--warning"
+  kind="warning"
+  role="alert"
+>
+  <div
+    className="bx--inline-notification__details"
+  >
+    <svg
+      alt="closes notification"
+      aria-label="closes notification"
+      className="bx--inline-notification__icon"
+      fill={undefined}
+      fillRule="evenodd"
+      height="16"
+      name={undefined}
+      role="img"
+      style={undefined}
+      viewBox="0 0 16 16"
+      width="16"
+    >
+      <title>
+        closes notification
+      </title>
+      <path
+        d="M.75 16a.75.75 0 0 1-.67-1.085L7.33.415a.75.75 0 0 1 1.34 0l7.25 14.5A.75.75 0 0 1 15.25 16H.75zm6.5-10v5h1.5V6h-1.5zM8 13.5A.75.75 0 1 0 8 12a.75.75 0 0 0 0 1.5z"
+      />
+    </svg>
+    <div
+      className="bx--inline-notification__text-wrapper"
+    >
+      <p
+        className="bx--inline-notification__title"
+      >
+        Average data is not applicable for Memory Used.
+      </p>
+      <div
+        className="bx--inline-notification__subtitle"
+      >
+        No trigger rule is defined, you can switch to see the instance metrics.
+      </div>
+    </div>
+  </div>
+  <button
+    className="bx--inline-notification__close-button"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      alt="close icon"
+      aria-label="close icon"
+      className="bx--inline-notification__close-icon"
+      fill={undefined}
+      fillRule="evenodd"
+      height="10"
+      name={undefined}
+      role="img"
+      style={undefined}
+      viewBox="0 0 10 10"
+      width="10"
+    >
+      <title>
+        close icon
+      </title>
+      <path
+        d="M6.32 5L10 8.68 8.68 10 5 6.32 1.32 10 0 8.68 3.68 5 0 1.32 1.32 0 5 3.68 8.68 0 10 1.32 6.32 5z"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`MetricChart renders MetricChart component correctly 1`] = `null`;

@@ -1,0 +1,94 @@
+---
+
+name: scalerui
+
+# Release Details
+releases:
+- name: scalerui
+  version: latest
+- name: routing
+  url: https://bosh.io/d/github.com/cloudfoundry-incubator/cf-routing-release?v=0.162.0
+  sha1: f17cf09d2414f5f486d18bbd57b17fd48fb69773
+  version: '0.162.0'
+
+# Stemcell details
+stemcells:
+- alias: default
+  os: ubuntu-xenial
+  version: latest
+
+# Canary details
+update:
+  canaries: 1
+  canary_watch_time: 1000-300000
+  max_in_flight: 3
+  update_watch_time: 1000-300000
+
+# Instance Group details
+instance_groups:
+
+- name: scalerui
+  azs:
+  - z1
+  instances: 1
+  networks:
+  - name: default
+  stemcell: default
+  vm_type: small
+  jobs:
+  - name: scalerui
+    release: scalerui
+    properties:
+      scalerui:
+        server:
+          port: &uiPublicPort 8088
+          viewPath: '/var/vcap/packages/scalerui/view/dev'
+          sessionTimeout: 21600s
+          sessionRefreshInterval: 60s
+          enableCsrfPrevention: true
+          enableClickjackingPrevention: true
+          enableSsoPrevention: true
+          enableHttpsRedirection: true
+          consoleUrl: ((console_urls))
+        logging:
+          level: debug
+          # files:
+          #   - "scalerui.log"
+        apiServer:
+          url: https://autoscaler.((system_domain))
+        cf:
+          api: https://api.((system_domain))
+          client:
+            clientId: scalerui_client
+            clientSecret: scalerui-secret
+            scope: ((cf_client_scope))
+        view:
+          restUrl_base: /v1
+          policy:
+            scaling_rules:
+              stat_window_secs_default: 120
+              stat_window_secs_min: 60
+              stat_window_secs_max: 3600
+              breach_duration_secs_default: 120
+              breach_duration_secs_min: 60
+              breach_duration_secs_max: 3600
+              cool_down_secs_default: 120
+              cool_down_secs_min: 60
+              cool_down_secs_max: 3600
+
+  - name: route_registrar
+    release: routing
+    consumes:
+      nats: {from: nats, deployment: cf}
+    properties:
+      route_registrar:
+        routes:
+        - name: scalerui
+          registration_interval: 20s
+          port: *uiPublicPort
+          tags:
+            component: scalerui
+          uris:
+            - ((scalerui_host)).((system_domain))
+
+variables: []
