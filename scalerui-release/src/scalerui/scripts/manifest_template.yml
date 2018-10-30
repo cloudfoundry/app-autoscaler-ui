@@ -1,9 +1,0 @@
----
-applications:
-- name: <SCALERUI_HOST>
-  random-route: false
-  memory: 1G
-  buildpack: binary_buildpack
-  domain: <CF_DOMAIN>
-  command: "./main -c cf_app_config.yml"
-  path: ./main.zip
