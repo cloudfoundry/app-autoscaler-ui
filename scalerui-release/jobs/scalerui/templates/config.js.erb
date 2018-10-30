@@ -1,0 +1,18 @@
+window.g = {
+  restUrl_base: '<%= p("scalerui.view.restUrl_base") %>',
+  policy: {
+    scaling_rules: {
+      stat_window_secs_default: <%= p("scalerui.view.policy.scaling_rules.stat_window_secs_default") %>,
+      stat_window_secs_min: <%= p("scalerui.view.policy.scaling_rules.stat_window_secs_min") %>,
+      stat_window_secs_max: <%= p("scalerui.view.policy.scaling_rules.stat_window_secs_max") %>,
+
+      breach_duration_secs_default: <%= p("scalerui.view.policy.scaling_rules.breach_duration_secs_default") %>,
+      breach_duration_secs_min: <%= p("scalerui.view.policy.scaling_rules.breach_duration_secs_min") %>,
+      breach_duration_secs_max: <%= p("scalerui.view.policy.scaling_rules.breach_duration_secs_max") %>,
+
+      cool_down_secs_default: <%= p("scalerui.view.policy.scaling_rules.cool_down_secs_default") %>,
+      cool_down_secs_min: <%= p("scalerui.view.policy.scaling_rules.cool_down_secs_min") %>,
+      cool_down_secs_max: <%= p("scalerui.view.policy.scaling_rules.cool_down_secs_max") %>,
+    }
+  }
+}

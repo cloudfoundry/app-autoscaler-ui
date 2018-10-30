@@ -1,0 +1,36 @@
+server:
+  port: 8088
+  view_path: '/home/vcap/app/view/dev'
+  session_timeout: 21600s
+  session_refresh_interval: 60s
+  enable_csrf_prevention: true
+  enable_clickjacking_prevention: true
+  enable_sso_prevention: true
+  enable_https_redirection: true
+  console_url: <CONSOLE_URLS>
+logging:
+  level: debug
+  files:
+    - "scalerui.log"
+api_server:
+  url: https://autoscaler.<CF_DOMAIN>
+cf:
+  api: https://api.<CF_DOMAIN>
+  client:
+    client_id: <AUTOSCALER_CLIENT_ID>
+    client_secret: <AUTOSCALER_CLIENT_SECRET>
+    scope: <AUTOSCALER_CLIENT_SCOPE>
+
+view:
+  restUrl_base: /v1
+  policy:
+    scaling_rules:
+      stat_window_secs_default: 120
+      stat_window_secs_min: 60
+      stat_window_secs_max: 3600
+      breach_duration_secs_default: 120
+      breach_duration_secs_min: 60
+      breach_duration_secs_max: 3600
+      cool_down_secs_default: 120
+      cool_down_secs_min: 60
+      cool_down_secs_max: 3600

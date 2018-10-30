@@ -1,0 +1,84 @@
+---
+name: scalerui
+
+templates:
+  scalerui.erb: bin/scalerui
+  config.yml.erb: config/config.yml
+  config.js.erb: config/config.js
+
+packages:
+  - nodejs8.11.4
+  - golang1.11
+  - scalerui
+  - common
+
+properties:
+  scalerui.server.port:
+    description: "Port where scalerui will run"
+    default: 8080
+  scalerui.server.viewPath:
+    description: "react view path"
+  scalerui.server.sessionTimeout:
+    description: "session timeout"
+    default: 600s
+  scalerui.server.sessionRefreshInterval:
+    default: 60s
+  scalerui.server.enableCsrfPrevention:
+    default: true
+  scalerui.server.enableClickjackingPrevention:
+    default: true
+  scalerui.server.enableSsoPrevention:
+    default: false
+  scalerui.server.enableHttpsRedirection:
+    default: true
+  scalerui.server.consoleUrl:
+    default: https://console.bosh-lite.com
+  scalerui.logging.level:
+    default: info
+  scalerui.logging.files:
+    description: "file path list that logs will be written to"
+  scalerui.apiServer.url:
+    description: ""
+    default: https://autoscaler.bosh-lite.com
+  scalerui.cf.api:
+    description: ""
+    default: https://api.bosh-lite.com
+  scalerui.cf.client.clientId:
+    description: ""
+    default: scalerui_client
+  scalerui.cf.client.clientSecret:
+    description: ""
+    default: scalerui-secret
+  scalerui.cf.client.scope:
+    description: ""
+    default: openid,cloud_controller.read,cloud_controller.write
+  scalerui.view.restUrl_base:
+    description: ""
+    default: "/v1"
+  scalerui.view.policy.scaling_rules.stat_window_secs_default: 
+    description: ""
+    default: 300
+  scalerui.view.policy.scaling_rules.stat_window_secs_min: 
+    description: ""
+    default: 60
+  scalerui.view.policy.scaling_rules.stat_window_secs_max: 
+    description: ""
+    default: 3600
+  scalerui.view.policy.scaling_rules.breach_duration_secs_default: 
+    description: ""
+    default: 300
+  scalerui.view.policy.scaling_rules.breach_duration_secs_min: 
+    description: ""
+    default: 60
+  scalerui.view.policy.scaling_rules.breach_duration_secs_max: 
+    description: ""
+    default: 3600
+  scalerui.view.policy.scaling_rules.cool_down_secs_default: 
+    description: ""
+    default: 300
+  scalerui.view.policy.scaling_rules.cool_down_secs_min: 
+    description: ""
+    default: 60
+  scalerui.view.policy.scaling_rules.cool_down_secs_max: 
+    description: ""
+    default: 3600

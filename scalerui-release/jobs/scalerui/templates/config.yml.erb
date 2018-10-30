@@ -1,0 +1,20 @@
+server:
+  port:  <%= p("scalerui.server.port") %>
+  view_path: <%= p("scalerui.server.viewPath") %>
+  session_timeout: <%= p("scalerui.server.sessionTimeout") %>
+  session_refresh_interval: <%= p("scalerui.server.sessionRefreshInterval") %>
+  enable_csrf_prevention: <%= p("scalerui.server.enableCsrfPrevention") %>
+  enable_clickjacking_prevention: <%= p("scalerui.server.enableClickjackingPrevention") %>
+  enable_sso_prevention: <%= p("scalerui.server.enableSsoPrevention") %>
+  enable_https_redirection: <%= p("scalerui.server.enableHttpsRedirection") %>
+  console_url: <%= p("scalerui.server.consoleUrl") %>
+logging:
+  level: <%= p("scalerui.logging.level") %>
+api_server:
+  url: <%= p("scalerui.apiServer.url") %>
+cf:
+  api: <%= p("scalerui.cf.api") %>
+  client:
+    client_id: <%= p("scalerui.cf.client.clientId") %>
+    client_secret: <%= p("scalerui.cf.client.clientSecret") %>
+    scope: "<%= p("scalerui.cf.client.scope") %>"

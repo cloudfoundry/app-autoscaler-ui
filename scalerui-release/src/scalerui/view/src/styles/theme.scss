@@ -1,0 +1,94 @@
+.navbar-inverse {
+  background-color: #ffffff;
+  border-color: #6ebbf9;
+}
+
+.navbar-header {
+  width: 100%;
+}
+
+.navbar-brand {
+  width: 100%;
+}
+
+.navbar-left {
+  text-decoration: none;
+  font-size: .875em;
+  bottom: 2px;
+  color: #5d686f;
+  float: left;
+  margin-right: 1em;
+  .bx--dropdown-v2 {
+    width: 15em;
+    margin-left: 1em;
+    span {
+      font-size: 0.75em;
+    }
+    .bx--list-box__menu-item {
+      font-size: 0.7em;
+    }
+  }
+} 
+
+.navbar-right {
+  text-decoration: none;
+  font-size: .875em;
+  padding-right: 15px;
+  padding-left: 30px;
+  bottom: 2px;
+  float: right;
+  color: #00A6A0;
+  height: 30px;
+}
+
+.navbar-brand .bx--select-input {
+  width: 15rem;
+  font-size: 1.2rem;
+  float: left;
+  font-family: "IBM Helvetica", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin-left: 1rem;
+}
+
+.navbar-button {
+  height: 2em;
+}
+
+.panel-heading {
+  font-weight: bold
+}
+
+.panel-info {
+  background-color:rgba(255,255,255,0.7) !important
+}
+
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  border-bottom: 1px solid #3d70b2
+}
+
+.navbar-header {
+  float: left;
+}

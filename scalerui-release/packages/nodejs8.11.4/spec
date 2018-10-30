@@ -1,0 +1,8 @@
+---
+name: nodejs8.11.4
+
+dependencies:
+
+files:
+- nodejs/node-v8.11.4-darwin-x64.tar.gz
+- nodejs/node-v8.11.4-linux-x64.tar.xz

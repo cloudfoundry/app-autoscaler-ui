@@ -1,0 +1,28 @@
+server:
+  port: 8080
+  tls:
+    key_file: ""
+    cert_file: ""
+    ca_file: ""
+  view_path: "/Users/zyjiaobj/app-autoscaler-ui/scalerui-release/src/scalerui/view/dev"
+  session_timeout: 600s
+  session_refresh_interval: 60s
+  enable_csrf_prevention: false
+  enable_clickjacking_prevention: false
+  enable_sso_prevention: false
+  enable_https_redirection: false
+  console_url: https://console.bosh-lite.com
+logging:
+  level: debug
+  files:
+  - "scalerui.log"
+  - "scalerui2.log"
+  - 111
+api_server:
+  url: https://autoscaler.bosh-lite.com
+cf:
+  api: https://api.bosh-lite.com
+  client:
+    client_id: autoscaler_client
+    client_secret: autoscaler_client_secret
+    scope: openid,cloud_controller.read,cloud_controller.write

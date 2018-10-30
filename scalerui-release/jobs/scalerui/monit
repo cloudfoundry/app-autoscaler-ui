@@ -1,0 +1,6 @@
+check process scalerui
+  with pidfile /var/vcap/sys/run/scalerui/scalerui.pid
+  start program "/var/vcap/jobs/scalerui/bin/scalerui start"
+  stop program "/var/vcap/jobs/scalerui/bin/scalerui stop"
+  group vcap
+
