@@ -1,0 +1,281 @@
+@import 'main';
+
+.form-input-inline {
+	display: inline-block;
+    .bx--form-item {
+	    display: inline-block;
+    }
+}
+
+.form-input-4 {
+    width: 4em;
+}
+
+.form-input-5 {
+    width: 5em;
+}
+
+.form-input-6 {
+    width: 6.5em;
+}
+
+.form-input-8 {
+    width: 8em;
+}
+
+.form-input-12 {
+    width: 12em;	
+}
+
+.form-input-10 {
+    width: 10em;
+}
+
+.form-input-18 {
+    width: 18em;	
+}
+
+.form-input-15 {
+    width: 15em;	
+}
+
+.parent-element{
+    position:relative;
+}
+
+.child-element{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.child-element-right-bottom{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.child-element-bottom{
+    position: absolute;
+    bottom: 0px;
+}
+
+.form-left {
+    float: left;
+    margin-bottom: unset
+}
+
+.bx--date-picker__icon+.bx--date-picker__input {
+    padding-left: 2rem
+}
+
+.multi-select-repeat {
+    display: inline-block;
+	.bx--multi-select {
+		height: 1.625em;
+        margin-top: 0.25em;
+        margin-right: 0.5em;
+		width: 13em;
+    }
+    .bx--list-box__selection {
+        font-size: 0.625em;
+        margin-right: 0.625em
+    }
+    .bx--list-box__label {
+        font-size: 0.75em
+    }
+}
+
+.select-tag {
+	font-size: 0.75em;
+	padding: 1em;
+	margin-right: 0.5em;
+    background: rgba(61,112,178,0.1);
+    font-family: $themeFont;
+	.select-tag-remove {
+		margin-left: 0.25em;
+    	width: 0.75em;
+    	height: 0.75em;
+	}
+}
+
+.bx--list-box__menu {
+    max-height: 20rem
+}
+
+.flatpickr-innerContainer {
+    height: 15rem;
+    .flatpickr-rContainer {
+        height: 11rem
+    }
+}
+
+.bx--inline-notification {
+    font-size: 1em;        
+}
+
+.bx--inline-notification__title {
+    font-size: 0.9em;     
+}
+
+.bx--inline-notification__subtitle {
+    p {
+        font-size: 0.9em;
+        a {
+            color: #5d686f;
+            font-weight: bold;
+        }
+    }
+    font-size: 0.9em;
+    margin-left: 0.5em;
+}
+.bx--inline-notification__close-button {
+display: none;
+}
+
+.bx--modal__buttons-container button {
+    font-size: 0.875em
+}
+
+.bx--content-switcher-btn.bx--content-switcher--selected {
+    background-color: unset;
+    color: unset;
+    font-weight: unset;
+    outline: unset;
+}
+
+.bx--content-switcher-btn.as--content-switcher--selected {
+    background-color: #3d70b2;
+    color: #fff;
+    font-weight: 400;
+    outline: 1px solid transparent;
+}
+
+.bx--progress-step svg {
+    position: relative;
+    z-index: 1;
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
+    margin-bottom: .5rem;
+    fill: #3d70b2;
+}
+
+.bx--progress-line {
+    position: absolute;
+    top: 1rem;
+    right: 100%;
+    height: 1px;
+    width: calc(100% - 24px);
+    border: 1px inset transparent;
+}
+
+.bx--progress-label {
+    font-size: 0.9em;
+}
+
+.form-group-horizontal label {
+    width: unset
+}
+
+.bx--snippet--multi {
+    max-width: unset
+}
+
+.bx--number[data-invalid] .bx--number__controls {
+    bottom: 0.2em
+}
+
+.bx--number__controls {
+    bottom: 0.2em
+}
+
+.bx--number input[type='number'] ~ .bx--form-requirement {
+    display: none
+}
+
+.bx--snippet--expand.bx--snippet--multi .bx--snippet-container {
+    max-height: 20000rem;
+}
+
+.bx--btn--primary {
+    height: 2em;
+    span {
+        color: white;
+        font-family: $themeFont;
+        font-weight: 400;
+    }
+}
+
+.bx--number input[type='number'] {
+    min-width: unset;
+    height: 2em;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+.bx--dropdown {
+    height: 1.9em;
+    span {
+        font-size: 0.8em;
+        font-family: $themeFont;
+    }
+    .bx--list-box__menu{
+        top: unset;
+    }
+    .bx--list-box__menu-item {
+        font-size: 0.7em; 
+        height: 1.5rem;
+        font-weight: 300;
+    }
+}
+
+.bx--tile {
+    min-height: unset
+}
+
+.bx--date-picker-container {
+    height: 2em;
+}
+
+.bx--radio-button-group {
+    margin-top: unset
+}
+
+.bx--list-box__menu {
+    top: unset;
+}
+
+.bx--checkbox-label {
+	font-size: 0.75em;
+}
+
+.bx--checkbox-label::before {
+	height: 1.25em;
+	width: 1.25em;
+	top: calc(50% - 5px);
+}
+
+.bx--checkbox-label::after {
+    left: 0.15rem
+}
+
+.bx--list-box__menu-item {
+    height: 2em;
+}
+
+.bx--list-box__selection--multi {
+    height: 1rem;
+}
+
+.bx--modal-header__heading {
+    font-size: 1em;
+}
+
+.bx--modal-header {
+    margin-bottom: 0em;
+}
+
+.bx--date-picker__icon ~ .bx--date-picker__input {
+    padding-left: 2rem;
+}

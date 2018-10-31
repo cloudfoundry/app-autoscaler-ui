@@ -1,0 +1,730 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HistoryTable renders HistoryTable component correctly 1`] = `
+<div>
+  <div
+    className="bx--responsive-table-container"
+  >
+    <table
+      className="bx--responsive-table"
+      style={
+        Object {
+          "borderCollapse": "collapse",
+          "borderSpacing": 0,
+        }
+      }
+    >
+      <thead
+        className="bx--table-head"
+      >
+        <tr
+          className="bx--table-row"
+        >
+          <th
+            className="bx--table-header"
+          >
+            <span>
+              Scaling Status
+            </span>
+            
+          </th>
+          <th
+            className="bx--table-header"
+          >
+            <span>
+              Scaling Type
+            </span>
+            
+          </th>
+          <th
+            className="bx--table-header"
+          >
+            <span>
+              Instance Change
+            </span>
+            
+          </th>
+          <th
+            className="bx--table-header"
+          >
+            <span>
+              Time
+            </span>
+            
+          </th>
+          <th
+            className="bx--table-header"
+          >
+            <span>
+              Action
+            </span>
+            
+          </th>
+          <th
+            className="bx--table-header"
+          >
+            <span>
+              Error
+            </span>
+            
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="bx--table-body"
+      >
+        <tr
+          className="bx--table-row bx--parent-row bx--parent-row--even"
+        >
+          <td
+            className=""
+            style={
+              Object {
+                "overflow": "hidden",
+                "textOverflow": "ellipsis",
+                "whiteSpace": "nowrap",
+                "width": "100%",
+                "wordBreak": "keep-all",
+              }
+            }
+          >
+            <img
+              className="small"
+              src={
+                Object {
+                  "default": Object {
+                    "mock": "mock",
+                  },
+                }
+              }
+            />
+            <span>
+              Succeeded
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            <span>
+              Dynamic
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            2
+             
+            <nobr
+              className="scale-in-arrow"
+            >
+              ➘ 
+            </nobr>
+             
+            1
+          </td>
+          <td
+            className=""
+          >
+            2018-05-15 02:42:55
+          </td>
+          <td
+            className=""
+          >
+            -1 instance(s) because memoryused &lt; 30MB for 600 seconds
+          </td>
+          <td
+            className=""
+          >
+            
+          </td>
+        </tr>
+        <tr
+          className="bx--table-row bx--parent-row"
+        >
+          <td
+            className=""
+            style={
+              Object {
+                "overflow": "hidden",
+                "textOverflow": "ellipsis",
+                "whiteSpace": "nowrap",
+                "width": "100%",
+                "wordBreak": "keep-all",
+              }
+            }
+          >
+            <img
+              className="small"
+              src={
+                Object {
+                  "default": Object {
+                    "mock": "mock",
+                  },
+                }
+              }
+            />
+            <span>
+              Succeeded
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            <span>
+              Dynamic
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            3
+             
+            <nobr
+              className="scale-in-arrow"
+            >
+              ➘ 
+            </nobr>
+             
+            2
+          </td>
+          <td
+            className=""
+          >
+            2018-05-15 02:37:35
+          </td>
+          <td
+            className=""
+          >
+            -1 instance(s) because throughput &lt; 5rps for 60 seconds
+          </td>
+          <td
+            className=""
+          >
+            
+          </td>
+        </tr>
+        <tr
+          className="bx--table-row bx--parent-row bx--parent-row--even"
+        >
+          <td
+            className=""
+            style={
+              Object {
+                "overflow": "hidden",
+                "textOverflow": "ellipsis",
+                "whiteSpace": "nowrap",
+                "width": "100%",
+                "wordBreak": "keep-all",
+              }
+            }
+          >
+            <img
+              className="small"
+              src={
+                Object {
+                  "default": Object {
+                    "mock": "mock",
+                  },
+                }
+              }
+            />
+            <span>
+              Succeeded
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            <span>
+              Dynamic
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            4
+             
+            <nobr
+              className="scale-in-arrow"
+            >
+              ➘ 
+            </nobr>
+             
+            3
+          </td>
+          <td
+            className=""
+          >
+            2018-05-15 02:32:15
+          </td>
+          <td
+            className=""
+          >
+            -1 instance(s) because throughput &lt; 5rps for 60 seconds
+          </td>
+          <td
+            className=""
+          >
+            
+          </td>
+        </tr>
+        <tr
+          className="bx--table-row bx--parent-row"
+        >
+          <td
+            className=""
+            style={
+              Object {
+                "overflow": "hidden",
+                "textOverflow": "ellipsis",
+                "whiteSpace": "nowrap",
+                "width": "100%",
+                "wordBreak": "keep-all",
+              }
+            }
+          >
+            <img
+              className="small"
+              src={
+                Object {
+                  "default": Object {
+                    "mock": "mock",
+                  },
+                }
+              }
+            />
+            <span>
+              Succeeded
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            <span>
+              Dynamic
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            5
+             
+            <nobr
+              className="scale-in-arrow"
+            >
+              ➘ 
+            </nobr>
+             
+            4
+          </td>
+          <td
+            className=""
+          >
+            2018-05-15 02:26:55
+          </td>
+          <td
+            className=""
+          >
+            -1 instance(s) because memoryutil &lt; 30% for 60 seconds
+          </td>
+          <td
+            className=""
+          >
+            
+          </td>
+        </tr>
+        <tr
+          className="bx--table-row bx--parent-row bx--parent-row--even"
+        >
+          <td
+            className=""
+            style={
+              Object {
+                "overflow": "hidden",
+                "textOverflow": "ellipsis",
+                "whiteSpace": "nowrap",
+                "width": "100%",
+                "wordBreak": "keep-all",
+              }
+            }
+          >
+            <img
+              className="small"
+              src={
+                Object {
+                  "default": Object {
+                    "mock": "mock",
+                  },
+                }
+              }
+            />
+            <span>
+              Succeeded
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            <span>
+              Dynamic
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            6
+             
+            <nobr
+              className="scale-in-arrow"
+            >
+              ➘ 
+            </nobr>
+             
+            5
+          </td>
+          <td
+            className=""
+          >
+            2018-05-15 02:21:34
+          </td>
+          <td
+            className=""
+          >
+            -1 instance(s) because memoryutil &lt; 30% for 60 seconds
+          </td>
+          <td
+            className=""
+          >
+            
+          </td>
+        </tr>
+        <tr
+          className="bx--table-row bx--parent-row"
+        >
+          <td
+            className=""
+            style={
+              Object {
+                "overflow": "hidden",
+                "textOverflow": "ellipsis",
+                "whiteSpace": "nowrap",
+                "width": "100%",
+                "wordBreak": "keep-all",
+              }
+            }
+          >
+            <img
+              className="small"
+              src={
+                Object {
+                  "default": Object {
+                    "mock": "mock",
+                  },
+                }
+              }
+            />
+            <span>
+              Succeeded
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            <span>
+              Dynamic
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            7
+             
+            <nobr
+              className="scale-in-arrow"
+            >
+              ➘ 
+            </nobr>
+             
+            6
+          </td>
+          <td
+            className=""
+          >
+            2018-05-15 02:16:15
+          </td>
+          <td
+            className=""
+          >
+            -1 instance(s) because throughput &lt; 5rps for 60 seconds
+          </td>
+          <td
+            className=""
+          >
+            
+          </td>
+        </tr>
+        <tr
+          className="bx--table-row bx--parent-row bx--parent-row--even"
+        >
+          <td
+            className=""
+            style={
+              Object {
+                "overflow": "hidden",
+                "textOverflow": "ellipsis",
+                "whiteSpace": "nowrap",
+                "width": "100%",
+                "wordBreak": "keep-all",
+              }
+            }
+          >
+            <img
+              className="small"
+              src={
+                Object {
+                  "default": Object {
+                    "mock": "mock",
+                  },
+                }
+              }
+            />
+            <span>
+              Succeeded
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            <span>
+              Dynamic
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            8
+             
+            <nobr
+              className="scale-in-arrow"
+            >
+              ➘ 
+            </nobr>
+             
+            7
+          </td>
+          <td
+            className=""
+          >
+            2018-05-15 02:10:55
+          </td>
+          <td
+            className=""
+          >
+            -1 instance(s) because throughput &lt; 5rps for 60 seconds
+          </td>
+          <td
+            className=""
+          >
+            
+          </td>
+        </tr>
+        <tr
+          className="bx--table-row bx--parent-row"
+        >
+          <td
+            className=""
+            style={
+              Object {
+                "overflow": "hidden",
+                "textOverflow": "ellipsis",
+                "whiteSpace": "nowrap",
+                "width": "100%",
+                "wordBreak": "keep-all",
+              }
+            }
+          >
+            <img
+              className="small"
+              src={
+                Object {
+                  "default": Object {
+                    "mock": "mock",
+                  },
+                }
+              }
+            />
+            <span>
+              Succeeded
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            <span>
+              Dynamic
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            9
+             
+            <nobr
+              className="scale-in-arrow"
+            >
+              ➘ 
+            </nobr>
+             
+            8
+          </td>
+          <td
+            className=""
+          >
+            2018-05-15 02:05:35
+          </td>
+          <td
+            className=""
+          >
+            -1 instance(s) because memoryutil &lt; 30% for 60 seconds
+          </td>
+          <td
+            className=""
+          >
+            
+          </td>
+        </tr>
+        <tr
+          className="bx--table-row bx--parent-row bx--parent-row--even"
+        >
+          <td
+            className=""
+            style={
+              Object {
+                "overflow": "hidden",
+                "textOverflow": "ellipsis",
+                "whiteSpace": "nowrap",
+                "width": "100%",
+                "wordBreak": "keep-all",
+              }
+            }
+          >
+            <img
+              className="small"
+              src={
+                Object {
+                  "default": Object {
+                    "mock": "mock",
+                  },
+                }
+              }
+            />
+            <span>
+              Succeeded
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            <span>
+              Dynamic
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            10
+             
+            <nobr
+              className="scale-in-arrow"
+            >
+              ➘ 
+            </nobr>
+             
+            9
+          </td>
+          <td
+            className=""
+          >
+            2018-05-15 02:00:15
+          </td>
+          <td
+            className=""
+          >
+            -1 instance(s) because throughput &lt; 5rps for 60 seconds
+          </td>
+          <td
+            className=""
+          >
+            
+          </td>
+        </tr>
+        <tr
+          className="bx--table-row bx--parent-row"
+        >
+          <td
+            className=""
+            style={
+              Object {
+                "overflow": "hidden",
+                "textOverflow": "ellipsis",
+                "whiteSpace": "nowrap",
+                "width": "100%",
+                "wordBreak": "keep-all",
+              }
+            }
+          >
+            <img
+              className="small"
+              src={
+                Object {
+                  "default": Object {
+                    "mock": "mock",
+                  },
+                }
+              }
+            />
+            <span>
+              Succeeded
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            <span>
+              Schedule
+            </span>
+          </td>
+          <td
+            className=""
+          >
+            18
+             
+            <nobr
+              className="scale-in-arrow"
+            >
+              ➘ 
+            </nobr>
+             
+            10
+          </td>
+          <td
+            className=""
+          >
+            2018-05-15 02:00:03
+          </td>
+          <td
+            className=""
+          >
+            -8 instance(s) because limited by max instances 5
+          </td>
+          <td
+            className=""
+          >
+            
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

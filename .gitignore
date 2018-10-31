@@ -1,12 +1,12 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-
-# Test binary, build with `go test -c`
-*.test
-
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+view/dev/*
+view/node_modules/*
+view/coverage/*
+view/package-lock.json
+bin/*
+pkg/*
+!src/scalerui
+scalerui
+scalerui.zip
+scalerui.log
+cf_app_config.yml
+manifest.yml

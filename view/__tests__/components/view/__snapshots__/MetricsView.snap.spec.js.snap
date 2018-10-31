@@ -1,0 +1,698 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MetricsView renders MetricsView component correctly 1`] = `
+<div
+  className="metrics-view"
+>
+  <div
+    className="bx--loading-overlay"
+  >
+    <div
+      aria-live="assertive"
+      className="bx--loading"
+    >
+      <svg
+        className="bx--loading__svg"
+        viewBox="-75 -75 150 150"
+      >
+        <circle
+          cx="0"
+          cy="0"
+          r="37.5"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="bx--modal"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onTransitionEnd={undefined}
+    role="presentation"
+    tabIndex={-1}
+  >
+    <div
+      aria-label={undefined}
+      className="bx--modal-container"
+      role="dialog"
+    >
+      <div
+        className="bx--modal-header"
+      >
+        <button
+          className="bx--modal-close"
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            alt="close the modal"
+            aria-label="close the modal"
+            className="bx--modal-close__icon"
+            fill={undefined}
+            fillRule="evenodd"
+            height="10"
+            name={undefined}
+            role="img"
+            style={undefined}
+            viewBox="0 0 10 10"
+            width="10"
+          >
+            <title>
+              close the modal
+            </title>
+            <path
+              d="M6.32 5L10 8.68 8.68 10 5 6.32 1.32 10 0 8.68 3.68 5 0 1.32 1.32 0 5 3.68 8.68 0 10 1.32 6.32 5z"
+            />
+          </svg>
+        </button>
+        
+        <h2
+          className="bx--modal-header__heading"
+        >
+          The time duration must be in the range of 1 ~ 120 minutes.
+        </h2>
+      </div>
+      <div
+        className="bx--modal-content"
+      />
+    </div>
+  </div>
+  <div
+    className="bx--grid"
+  >
+    <div
+      className="bx--row"
+    >
+      <div
+        className="bx--col-xs-12 bx--col-md-2 parent-element"
+      >
+        <div
+          className="select-title child-element"
+        >
+          <span>
+            Metrics:
+          </span>
+        </div>
+      </div>
+      <div
+        className="bx--col-xs-12 bx--col-md-10"
+      >
+        <div
+          id="metrics-select"
+        >
+          <div
+            className="multi-select-repeat"
+          >
+            <div
+              aria-invalid={undefined}
+              aria-label="Choose an item"
+              className="bx--multi-select bx--list-box"
+              data-invalid={undefined}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="listbox"
+              tabIndex="0"
+            >
+              <div
+                aria-expanded={false}
+                aria-haspopup={true}
+                aria-label="open menu"
+                className="bx--list-box__field"
+                data-toggle={true}
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex="0"
+                type="button"
+              >
+                <div
+                  className="bx--list-box__selection bx--list-box__selection--multi"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex="0"
+                  title="Clear all selected items"
+                >
+                  1
+                  <svg
+                    alt="Clear all selected items"
+                    aria-label="Clear all selected items"
+                    className={undefined}
+                    fill={undefined}
+                    fillRule="evenodd"
+                    focusable="false"
+                    height="10"
+                    name={undefined}
+                    role="img"
+                    style={undefined}
+                    viewBox="0 0 10 10"
+                    width="10"
+                  >
+                    <title>
+                      Clear all selected items
+                    </title>
+                    <path
+                      d="M6.32 5L10 8.68 8.68 10 5 6.32 1.32 10 0 8.68 3.68 5 0 1.32 1.32 0 5 3.68 8.68 0 10 1.32 6.32 5z"
+                    />
+                  </svg>
+                </div>
+                <span
+                  className="bx--list-box__label"
+                >
+                  Select Metrics
+                </span>
+                <div
+                  className="bx--list-box__menu-icon"
+                >
+                  <svg
+                    alt="Open menu"
+                    aria-label="Open menu"
+                    className={undefined}
+                    fill={undefined}
+                    fillRule="evenodd"
+                    height="5"
+                    name={undefined}
+                    role="img"
+                    style={undefined}
+                    viewBox="0 0 10 5"
+                    width="10"
+                  >
+                    <title>
+                      Open menu
+                    </title>
+                    <path
+                      d="M0 0l5 4.998L10 0z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span
+            className="bx--tag bx--tag--beta select-tag"
+            style={
+              Object {
+                "background": "rgba(61, 112, 178, 0.1)",
+              }
+            }
+          >
+            Memory Used
+            <svg
+              alt="Provide a description that will be used as the title"
+              aria-label="Provide a description that will be used as the title"
+              className="select-tag-remove"
+              fill="#3d70b2"
+              fillRule="evenodd"
+              height="10"
+              id="removeIcon0"
+              name="icon--close"
+              onClick={[Function]}
+              role="img"
+              style={undefined}
+              viewBox="0 0 10 10"
+              width="10"
+            >
+              <title>
+                Provide a description that will be used as the title
+              </title>
+              <path
+                d="M6.32 5L10 8.68 8.68 10 5 6.32 1.32 10 0 8.68 3.68 5 0 1.32 1.32 0 5 3.68 8.68 0 10 1.32 6.32 5z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="bx--row"
+    >
+      <div
+        className="bx--col-xs-12 bx--col-md-2"
+      >
+        <div
+          className="select-title"
+        >
+          <span>
+            Application Instance:
+          </span>
+        </div>
+      </div>
+      <div
+        className="bx--col-xs-12 bx--col-md-10"
+      >
+        <div
+          aria-invalid={undefined}
+          aria-label="Choose an item"
+          className="bx--dropdown select-single form-input-12 bx--list-box"
+          data-invalid={undefined}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="listbox"
+          tabIndex="0"
+        >
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            aria-label="open menu"
+            className="bx--list-box__field"
+            data-toggle={true}
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="bx--list-box__label"
+              htmlFor="downshift-1-input"
+            >
+              Average
+            </span>
+            <div
+              className="bx--list-box__menu-icon"
+            >
+              <svg
+                alt="Open menu"
+                aria-label="Open menu"
+                className={undefined}
+                fill={undefined}
+                fillRule="evenodd"
+                height="5"
+                name={undefined}
+                role="img"
+                style={undefined}
+                viewBox="0 0 10 5"
+                width="10"
+              >
+                <title>
+                  Open menu
+                </title>
+                <path
+                  d="M0 0l5 4.998L10 0z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="bx--row"
+    >
+      <div
+        className="bx--col-xs-12 bx--col-md-2"
+      >
+        <div
+          className="select-title"
+        >
+          <span>
+            Time Range:
+          </span>
+        </div>
+      </div>
+      <div
+        className="bx--col-xs-12 bx--col-md-2"
+      >
+        <div
+          aria-invalid={undefined}
+          aria-label="Choose an item"
+          className="bx--dropdown select-single inline-block form-input-12 bx--list-box"
+          data-invalid={undefined}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="listbox"
+          tabIndex="0"
+        >
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            aria-label="open menu"
+            className="bx--list-box__field"
+            data-toggle={true}
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="bx--list-box__label"
+              htmlFor="downshift-2-input"
+            >
+              Custom Range
+            </span>
+            <div
+              className="bx--list-box__menu-icon"
+            >
+              <svg
+                alt="Open menu"
+                aria-label="Open menu"
+                className={undefined}
+                fill={undefined}
+                fillRule="evenodd"
+                height="5"
+                name={undefined}
+                role="img"
+                style={undefined}
+                viewBox="0 0 10 5"
+                width="10"
+              >
+                <title>
+                  Open menu
+                </title>
+                <path
+                  d="M0 0l5 4.998L10 0z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="bx--col-xs-12 bx--col-md-7"
+      >
+        <div>
+          <div
+            className="bx--form-item"
+          >
+            <div
+              className="bx--date-picker bx--date-picker--single"
+              id="date-picker"
+            >
+              <div
+                className="bx--date-picker-container bx--date-picker--nolabel"
+              >
+                <svg
+                  alt="Provide a description that will be used as the title"
+                  aria-label="Provide a description that will be used as the title"
+                  className="bx--date-picker__icon"
+                  fill={undefined}
+                  fillRule="evenodd"
+                  height="16"
+                  name="calendar"
+                  onClick={[Function]}
+                  role="img"
+                  style={undefined}
+                  viewBox="0 0 14 16"
+                  width="14"
+                >
+                  <title>
+                    Provide a description that will be used as the title
+                  </title>
+                  <path
+                    d="M0 5h14v1H0V5zm3-5h1v4H3V0zm7 0h1v4h-1V0zM0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14.5v-12zm1 0v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5v-12a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5z"
+                  />
+                </svg>
+                <input
+                  className="bx--date-picker__input"
+                  disabled={false}
+                  id="date-picker-input-id"
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  pattern="\\\\d{1,2}\\\\/\\\\d{1,2}\\\\/\\\\d{4}"
+                  placeholder={undefined}
+                  type="text"
+                  value="2018-05-30"
+                />
+              </div>
+              
+            </div>
+          </div>
+          <div
+            aria-invalid={undefined}
+            aria-label="Choose an item"
+            className="bx--dropdown select-time bx--list-box"
+            data-invalid={undefined}
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="listbox"
+            tabIndex="0"
+          >
+            <div
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-label="open menu"
+              className="bx--list-box__field"
+              data-toggle={true}
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex="0"
+              type="button"
+            >
+              <span
+                className="bx--list-box__label"
+                htmlFor="downshift-3-input"
+              >
+                17:00
+              </span>
+              <div
+                className="bx--list-box__menu-icon"
+              >
+                <svg
+                  alt="Open menu"
+                  aria-label="Open menu"
+                  className={undefined}
+                  fill={undefined}
+                  fillRule="evenodd"
+                  height="5"
+                  name={undefined}
+                  role="img"
+                  style={undefined}
+                  viewBox="0 0 10 5"
+                  width="10"
+                >
+                  <title>
+                    Open menu
+                  </title>
+                  <path
+                    d="M0 0l5 4.998L10 0z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            className="bx--form-item"
+          >
+            <div
+              className="bx--date-picker bx--date-picker--single"
+              id="date-picker"
+              style={
+                Object {
+                  "marginLeft": "1em",
+                }
+              }
+            >
+              <div
+                className="bx--date-picker-container bx--date-picker--nolabel"
+              >
+                <svg
+                  alt="Provide a description that will be used as the title"
+                  aria-label="Provide a description that will be used as the title"
+                  className="bx--date-picker__icon"
+                  fill={undefined}
+                  fillRule="evenodd"
+                  height="16"
+                  name="calendar"
+                  onClick={[Function]}
+                  role="img"
+                  style={undefined}
+                  viewBox="0 0 14 16"
+                  width="14"
+                >
+                  <title>
+                    Provide a description that will be used as the title
+                  </title>
+                  <path
+                    d="M0 5h14v1H0V5zm3-5h1v4H3V0zm7 0h1v4h-1V0zM0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14.5v-12zm1 0v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5v-12a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5z"
+                  />
+                </svg>
+                <input
+                  className="bx--date-picker__input"
+                  disabled={false}
+                  id="date-picker-input-id"
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  pattern="\\\\d{1,2}\\\\/\\\\d{1,2}\\\\/\\\\d{4}"
+                  placeholder={undefined}
+                  type="text"
+                  value="2018-05-30"
+                />
+              </div>
+              
+            </div>
+          </div>
+          <div
+            aria-invalid={undefined}
+            aria-label="Choose an item"
+            className="bx--dropdown select-time bx--list-box"
+            data-invalid={undefined}
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="listbox"
+            tabIndex="0"
+          >
+            <div
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-label="open menu"
+              className="bx--list-box__field"
+              data-toggle={true}
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex="0"
+              type="button"
+            >
+              <span
+                className="bx--list-box__label"
+                htmlFor="downshift-4-input"
+              >
+                18:00
+              </span>
+              <div
+                className="bx--list-box__menu-icon"
+              >
+                <svg
+                  alt="Open menu"
+                  aria-label="Open menu"
+                  className={undefined}
+                  fill={undefined}
+                  fillRule="evenodd"
+                  height="5"
+                  name={undefined}
+                  role="img"
+                  style={undefined}
+                  viewBox="0 0 10 5"
+                  width="10"
+                >
+                  <title>
+                    Open menu
+                  </title>
+                  <path
+                    d="M0 0l5 4.998L10 0z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <button
+            className="bx--btn bx--btn--primary"
+            disabled={false}
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "1em",
+              }
+            }
+            tabIndex={0}
+            type="button"
+          >
+            <span>
+              Run Query
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="bx--row"
+    >
+      <div
+        className="bx--col-xs-12 bx--col-md-12"
+      >
+        <div
+          className="select-text"
+        >
+          <span>
+            Note: The time axis is displayed in your local timezone.
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="bx--inline-notification bx--inline-notification--warning"
+      kind="warning"
+      role="alert"
+    >
+      <div
+        className="bx--inline-notification__details"
+      >
+        <svg
+          alt="closes notification"
+          aria-label="closes notification"
+          className="bx--inline-notification__icon"
+          fill={undefined}
+          fillRule="evenodd"
+          height="16"
+          name={undefined}
+          role="img"
+          style={undefined}
+          viewBox="0 0 16 16"
+          width="16"
+        >
+          <title>
+            closes notification
+          </title>
+          <path
+            d="M.75 16a.75.75 0 0 1-.67-1.085L7.33.415a.75.75 0 0 1 1.34 0l7.25 14.5A.75.75 0 0 1 15.25 16H.75zm6.5-10v5h1.5V6h-1.5zM8 13.5A.75.75 0 1 0 8 12a.75.75 0 0 0 0 1.5z"
+          />
+        </svg>
+        <div
+          className="bx--inline-notification__text-wrapper"
+        >
+          <p
+            className="bx--inline-notification__title"
+          >
+            Average data is not applicable for Memory Used.
+          </p>
+          <div
+            className="bx--inline-notification__subtitle"
+          >
+            No trigger rule is defined, you can switch to see the instance metrics.
+          </div>
+        </div>
+      </div>
+      <button
+        className="bx--inline-notification__close-button"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          alt="close icon"
+          aria-label="close icon"
+          className="bx--inline-notification__close-icon"
+          fill={undefined}
+          fillRule="evenodd"
+          height="10"
+          name={undefined}
+          role="img"
+          style={undefined}
+          viewBox="0 0 10 10"
+          width="10"
+        >
+          <title>
+            close icon
+          </title>
+          <path
+            d="M6.32 5L10 8.68 8.68 10 5 6.32 1.32 10 0 8.68 3.68 5 0 1.32 1.32 0 5 3.68 8.68 0 10 1.32 6.32 5z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;

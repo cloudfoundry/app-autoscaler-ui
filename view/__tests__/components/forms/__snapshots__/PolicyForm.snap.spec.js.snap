@@ -1,0 +1,2375 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PolicyForm renders PolicyForm component correctly 1`] = `
+<div
+  className="policy-form policy-des"
+>
+  <div
+    className="asc-title-header"
+  >
+    <span>
+      Edit Auto-Scaling Policy
+    </span>
+  </div>
+  <div
+    className="asc-title-header"
+  >
+    <button
+      className="policy-form-btn bx--btn bx--btn--primary"
+      disabled={false}
+      onClick={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span>
+        Back
+      </span>
+      <svg
+        alt="Provide icon description if icon is used"
+        aria-label="Provide icon description if icon is used"
+        className="bx--btn__icon"
+        fill={undefined}
+        fillRule="evenodd"
+        height="14"
+        name="icon--arrow--left"
+        role="img"
+        style={undefined}
+        viewBox="0 0 16 14"
+        width="16"
+      >
+        <title>
+          Provide icon description if icon is used
+        </title>
+        <path
+          d="M4.044 8.003l4.09 3.905-1.374 1.453-6.763-6.356L6.759.639 8.135 2.09 4.043 6.003h11.954v2H4.044z"
+        />
+      </svg>
+    </button>
+    <button
+      className="policy-form-btn bx--btn bx--btn--primary"
+      disabled={false}
+      onClick={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span>
+        Save
+      </span>
+      <svg
+        alt="Provide icon description if icon is used"
+        aria-label="Provide icon description if icon is used"
+        className="bx--btn__icon"
+        fill={undefined}
+        fillRule="evenodd"
+        height="16"
+        name="icon--save"
+        role="img"
+        style={undefined}
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <title>
+          Provide icon description if icon is used
+        </title>
+        <path
+          d="M12 1.597v2.406a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V1H1v14h3V9a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v6h3V4.702l-3-3.105zM1 0h10.848L16 4.298V15a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1zm10 9H5v5.992l6 .007V9zM5 1v3.003h6V1H5z"
+        />
+      </svg>
+    </button>
+    <button
+      className="policy-form-btn bx--btn bx--btn--primary"
+      disabled={false}
+      onClick={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span>
+        Cancel Change
+      </span>
+      <svg
+        alt="Provide icon description if icon is used"
+        aria-label="Provide icon description if icon is used"
+        className="bx--btn__icon"
+        fill={undefined}
+        fillRule="evenodd"
+        height="16"
+        name="icon--restart"
+        role="img"
+        style={undefined}
+        viewBox="0 0 13 16"
+        width="13"
+      >
+        <title>
+          Provide icon description if icon is used
+        </title>
+        <path
+          d="M10.948 3L8.542.727 9.23 0 13 3.564 9.228 7.108l-.685-.729L11.075 4H6.5A5.5 5.5 0 1 0 12 9.5h1A6.5 6.5 0 1 1 6.5 3h4.448z"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="bx--inline-notification bx--inline-notification--warning"
+    kind="warning"
+    role="alert"
+  >
+    <div
+      className="bx--inline-notification__details"
+    >
+      <svg
+        alt="closes notification"
+        aria-label="closes notification"
+        className="bx--inline-notification__icon"
+        fill={undefined}
+        fillRule="evenodd"
+        height="16"
+        name={undefined}
+        role="img"
+        style={undefined}
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <title>
+          closes notification
+        </title>
+        <path
+          d="M.75 16a.75.75 0 0 1-.67-1.085L7.33.415a.75.75 0 0 1 1.34 0l7.25 14.5A.75.75 0 0 1 15.25 16H.75zm6.5-10v5h1.5V6h-1.5zM8 13.5A.75.75 0 1 0 8 12a.75.75 0 0 0 0 1.5z"
+        />
+      </svg>
+      <div
+        className="bx--inline-notification__text-wrapper"
+      >
+        <p
+          className="bx--inline-notification__title"
+        >
+          There are unsaved changes.
+        </p>
+        <div
+          className="bx--inline-notification__subtitle"
+        >
+          
+        </div>
+      </div>
+    </div>
+    <button
+      className="bx--inline-notification__close-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        alt="close icon"
+        aria-label="close icon"
+        className="bx--inline-notification__close-icon"
+        fill={undefined}
+        fillRule="evenodd"
+        height="10"
+        name={undefined}
+        role="img"
+        style={undefined}
+        viewBox="0 0 10 10"
+        width="10"
+      >
+        <title>
+          close icon
+        </title>
+        <path
+          d="M6.32 5L10 8.68 8.68 10 5 6.32 1.32 10 0 8.68 3.68 5 0 1.32 1.32 0 5 3.68 8.68 0 10 1.32 6.32 5z"
+        />
+      </svg>
+    </button>
+  </div>
+  <ul
+    aria-multiselectable="true"
+    className="bx--accordion"
+    role="tablist"
+  >
+    <li
+      className="bx--accordion__item--active bx--accordion__item"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      open={true}
+      role="presentation"
+    >
+      <button
+        className="bx--accordion__heading"
+        onClick={[Function]}
+        role="tab"
+        type="button"
+      >
+        <svg
+          alt="Expand/Collapse"
+          aria-label="Expand/Collapse"
+          className="bx--accordion__arrow"
+          fill={undefined}
+          fillRule="evenodd"
+          height="12"
+          name={undefined}
+          role="img"
+          style={undefined}
+          viewBox="0 0 7 12"
+          width="7"
+        >
+          <title>
+            Expand/Collapse
+          </title>
+          <path
+            d="M5.569 5.994L0 .726.687 0l6.336 5.994-6.335 6.002L0 11.27z"
+          />
+        </svg>
+        <div
+          className="bx--accordion__title"
+        >
+          <div
+            className="title"
+          >
+            <span>
+              Default Instance Limits
+            </span>
+          </div>
+        </div>
+      </button>
+      <div
+        className="bx--accordion__content"
+      >
+        <div
+          className="instance-limit-form"
+        >
+          <div
+            className="bx--grid"
+          >
+            <div
+              className="bx--row"
+            >
+              <div
+                className="bx--col-xs-12 bx--col-md-3 sub-title"
+              >
+                <div
+                  className="bx--tooltip__trigger"
+                >
+                  Minimum Instance Count
+                  <div
+                    aria-expanded={false}
+                    aria-haspopup="true"
+                    id="trigger_input_minimum_instance_tooltip"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    role="button"
+                    tabIndex="0"
+                  >
+                    <svg
+                      alt="tooltip"
+                      aria-label="tooltip"
+                      className={undefined}
+                      fill={undefined}
+                      fillRule="evenodd"
+                      height="16"
+                      name={undefined}
+                      role="img"
+                      style={undefined}
+                      viewBox="0 0 16 16"
+                      width="16"
+                    >
+                      <title>
+                        tooltip
+                      </title>
+                      <path
+                        d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 4c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1zm2 8H6v-1h1V8H6V7h3v4h1v1z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="bx--col-xs-12 bx--col-md-3 sub-title"
+              >
+                <div
+                  className="bx--form-item"
+                >
+                  <div
+                    className="bx--number form-input-6"
+                  >
+                    <div
+                      className="bx--number__controls"
+                    >
+                      <button
+                        className="bx--number__control-btn up-icon"
+                        disabled={false}
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <svg
+                          alt="choose a number"
+                          aria-label="choose a number"
+                          className="up-icon"
+                          fill={undefined}
+                          fillRule="evenodd"
+                          height="5"
+                          name={undefined}
+                          role="img"
+                          style={undefined}
+                          viewBox="0 0 10 5"
+                          width="10"
+                        >
+                          <title>
+                            choose a number
+                          </title>
+                          <path
+                            d="M0 5L5 .002 10 5z"
+                          />
+                        </svg>
+                      </button>
+                      <button
+                        className="bx--number__control-btn down-icon"
+                        disabled={false}
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <svg
+                          alt="choose a number"
+                          aria-label="choose a number"
+                          className="down-icon"
+                          fill={undefined}
+                          fillRule="evenodd"
+                          height="5"
+                          name={undefined}
+                          role="img"
+                          style={undefined}
+                          viewBox="0 0 10 5"
+                          width="10"
+                        >
+                          <title>
+                            choose a number
+                          </title>
+                          <path
+                            d="M0 0l5 4.998L10 0z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                    <label
+                      className="bx--label"
+                      htmlFor="input_minimum_instance"
+                    >
+                       
+                    </label>
+                    <input
+                      disabled={false}
+                      id="input_minimum_instance"
+                      max={undefined}
+                      min={undefined}
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      pattern="[0-9]*"
+                      step={1}
+                      type="number"
+                      value={1}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="bx--row"
+            >
+              <div
+                className="bx--col-xs-12 bx--col-md-3 sub-title"
+              >
+                <div
+                  className="bx--tooltip__trigger"
+                >
+                  Maximum Instance Count
+                  <div
+                    aria-expanded={false}
+                    aria-haspopup="true"
+                    id="trigger_input_maximum_instance_tooltip"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseOut={[Function]}
+                    onMouseOver={[Function]}
+                    role="button"
+                    tabIndex="0"
+                  >
+                    <svg
+                      alt="tooltip"
+                      aria-label="tooltip"
+                      className={undefined}
+                      fill={undefined}
+                      fillRule="evenodd"
+                      height="16"
+                      name={undefined}
+                      role="img"
+                      style={undefined}
+                      viewBox="0 0 16 16"
+                      width="16"
+                    >
+                      <title>
+                        tooltip
+                      </title>
+                      <path
+                        d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 4c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1zm2 8H6v-1h1V8H6V7h3v4h1v1z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="bx--col-xs-12 bx--col-md-3 sub-title"
+              >
+                <div
+                  className="bx--form-item"
+                >
+                  <div
+                    className="bx--number form-input-6"
+                  >
+                    <div
+                      className="bx--number__controls"
+                    >
+                      <button
+                        className="bx--number__control-btn up-icon"
+                        disabled={false}
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <svg
+                          alt="choose a number"
+                          aria-label="choose a number"
+                          className="up-icon"
+                          fill={undefined}
+                          fillRule="evenodd"
+                          height="5"
+                          name={undefined}
+                          role="img"
+                          style={undefined}
+                          viewBox="0 0 10 5"
+                          width="10"
+                        >
+                          <title>
+                            choose a number
+                          </title>
+                          <path
+                            d="M0 5L5 .002 10 5z"
+                          />
+                        </svg>
+                      </button>
+                      <button
+                        className="bx--number__control-btn down-icon"
+                        disabled={false}
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <svg
+                          alt="choose a number"
+                          aria-label="choose a number"
+                          className="down-icon"
+                          fill={undefined}
+                          fillRule="evenodd"
+                          height="5"
+                          name={undefined}
+                          role="img"
+                          style={undefined}
+                          viewBox="0 0 10 5"
+                          width="10"
+                        >
+                          <title>
+                            choose a number
+                          </title>
+                          <path
+                            d="M0 0l5 4.998L10 0z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                    <label
+                      className="bx--label"
+                      htmlFor="input_maximum_instance"
+                    >
+                       
+                    </label>
+                    <input
+                      disabled={false}
+                      id="input_maximum_instance"
+                      max={undefined}
+                      min={undefined}
+                      onChange={[Function]}
+                      onClick={[Function]}
+                      pattern="[0-9]*"
+                      step={1}
+                      type="number"
+                      value={5}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      className="bx--accordion__item--active bx--accordion__item"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      open={true}
+      role="presentation"
+    >
+      <button
+        className="bx--accordion__heading"
+        onClick={[Function]}
+        role="tab"
+        type="button"
+      >
+        <svg
+          alt="Expand/Collapse"
+          aria-label="Expand/Collapse"
+          className="bx--accordion__arrow"
+          fill={undefined}
+          fillRule="evenodd"
+          height="12"
+          name={undefined}
+          role="img"
+          style={undefined}
+          viewBox="0 0 7 12"
+          width="7"
+        >
+          <title>
+            Expand/Collapse
+          </title>
+          <path
+            d="M5.569 5.994L0 .726.687 0l6.336 5.994-6.335 6.002L0 11.27z"
+          />
+        </svg>
+        <div
+          className="bx--accordion__title"
+        >
+          <div
+            className="title"
+          >
+            <span>
+              Scaling Rules
+            </span>
+          </div>
+        </div>
+      </button>
+      <div
+        className="bx--accordion__content"
+      >
+        <div>
+          <div
+            className="bx--tile trigger-tile"
+          >
+            <div
+              className="tileAboveTheFoldContent"
+            >
+              <div
+                className="sub-title"
+              >
+                <span>
+                  Rule 1
+                </span>
+                <svg
+                  alt="Provide a description that will be used as the title"
+                  aria-label="Provide a description that will be used as the title"
+                  className="remove-btn"
+                  fill="#3d70b2"
+                  fillRule="evenodd"
+                  height="10"
+                  name="icon--close"
+                  onClick={[Function]}
+                  role="img"
+                  style={undefined}
+                  viewBox="0 0 10 10"
+                  width="10"
+                >
+                  <title>
+                    Provide a description that will be used as the title
+                  </title>
+                  <path
+                    d="M6.32 5L10 8.68 8.68 10 5 6.32 1.32 10 0 8.68 3.68 5 0 1.32 1.32 0 5 3.68 8.68 0 10 1.32 6.32 5z"
+                  />
+                </svg>
+              </div>
+              <div
+                className="rule-des"
+              >
+                <span>
+                  If average 
+                  <div
+                    className="form-input-inline form-input-10"
+                  >
+                    <div
+                      aria-invalid={undefined}
+                      aria-label="Choose an item"
+                      className="bx--dropdown bx--list-box"
+                      data-invalid={undefined}
+                      onClick={[Function]}
+                      onKeyDown={[Function]}
+                      role="listbox"
+                      tabIndex="0"
+                    >
+                      <div
+                        aria-expanded={false}
+                        aria-haspopup={true}
+                        aria-label="open menu"
+                        className="bx--list-box__field"
+                        data-toggle={true}
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="button"
+                        tabIndex="0"
+                        type="button"
+                      >
+                        <span
+                          className="bx--list-box__label"
+                          htmlFor="downshift-0-input"
+                        >
+                          Memory Used
+                        </span>
+                        <div
+                          className="bx--list-box__menu-icon"
+                        >
+                          <svg
+                            alt="Open menu"
+                            aria-label="Open menu"
+                            className={undefined}
+                            fill={undefined}
+                            fillRule="evenodd"
+                            height="5"
+                            name={undefined}
+                            role="img"
+                            style={undefined}
+                            viewBox="0 0 10 5"
+                            width="10"
+                          >
+                            <title>
+                              Open menu
+                            </title>
+                            <path
+                              d="M0 0l5 4.998L10 0z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                   
+                  <div
+                    className="form-input-inline form-input-5"
+                  >
+                    <div
+                      aria-invalid={undefined}
+                      aria-label="Choose an item"
+                      className="bx--dropdown bx--list-box"
+                      data-invalid={undefined}
+                      onClick={[Function]}
+                      onKeyDown={[Function]}
+                      role="listbox"
+                      tabIndex="0"
+                    >
+                      <div
+                        aria-expanded={false}
+                        aria-haspopup={true}
+                        aria-label="open menu"
+                        className="bx--list-box__field"
+                        data-toggle={true}
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="button"
+                        tabIndex="0"
+                        type="button"
+                      >
+                        <span
+                          className="bx--list-box__label"
+                          htmlFor="downshift-1-input"
+                        >
+                          &gt;=
+                        </span>
+                        <div
+                          className="bx--list-box__menu-icon"
+                        >
+                          <svg
+                            alt="Open menu"
+                            aria-label="Open menu"
+                            className={undefined}
+                            fill={undefined}
+                            fillRule="evenodd"
+                            height="5"
+                            name={undefined}
+                            role="img"
+                            style={undefined}
+                            viewBox="0 0 10 5"
+                            width="10"
+                          >
+                            <title>
+                              Open menu
+                            </title>
+                            <path
+                              d="M0 0l5 4.998L10 0z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                   
+                  <div
+                    className="form-input-inline"
+                  >
+                    <div
+                      className="bx--form-item"
+                    >
+                      <div
+                        className="bx--number form-input-5"
+                      >
+                        <div
+                          className="bx--number__controls"
+                        >
+                          <button
+                            className="bx--number__control-btn up-icon"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <svg
+                              alt="choose a number"
+                              aria-label="choose a number"
+                              className="up-icon"
+                              fill={undefined}
+                              fillRule="evenodd"
+                              height="5"
+                              name={undefined}
+                              role="img"
+                              style={undefined}
+                              viewBox="0 0 10 5"
+                              width="10"
+                            >
+                              <title>
+                                choose a number
+                              </title>
+                              <path
+                                d="M0 5L5 .002 10 5z"
+                              />
+                            </svg>
+                          </button>
+                          <button
+                            className="bx--number__control-btn down-icon"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <svg
+                              alt="choose a number"
+                              aria-label="choose a number"
+                              className="down-icon"
+                              fill={undefined}
+                              fillRule="evenodd"
+                              height="5"
+                              name={undefined}
+                              role="img"
+                              style={undefined}
+                              viewBox="0 0 10 5"
+                              width="10"
+                            >
+                              <title>
+                                choose a number
+                              </title>
+                              <path
+                                d="M0 0l5 4.998L10 0z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                        <label
+                          className="bx--label"
+                          htmlFor="tj-input"
+                        >
+                           
+                        </label>
+                        <input
+                          disabled={false}
+                          id="tj-input"
+                          max={undefined}
+                          min={undefined}
+                          onChange={[Function]}
+                          onClick={[Function]}
+                          pattern="[0-9]*"
+                          step={1}
+                          type="number"
+                          value={80}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                   
+                  <nobr>
+                    MB
+                  </nobr>
+                   for 
+                  <div
+                    className="form-input-inline"
+                  >
+                    <div
+                      className="bx--form-item"
+                    >
+                      <div
+                        className="bx--number form-input-5"
+                      >
+                        <div
+                          className="bx--number__controls"
+                        >
+                          <button
+                            className="bx--number__control-btn up-icon"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <svg
+                              alt="choose a number"
+                              aria-label="choose a number"
+                              className="up-icon"
+                              fill={undefined}
+                              fillRule="evenodd"
+                              height="5"
+                              name={undefined}
+                              role="img"
+                              style={undefined}
+                              viewBox="0 0 10 5"
+                              width="10"
+                            >
+                              <title>
+                                choose a number
+                              </title>
+                              <path
+                                d="M0 5L5 .002 10 5z"
+                              />
+                            </svg>
+                          </button>
+                          <button
+                            className="bx--number__control-btn down-icon"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <svg
+                              alt="choose a number"
+                              aria-label="choose a number"
+                              className="down-icon"
+                              fill={undefined}
+                              fillRule="evenodd"
+                              height="5"
+                              name={undefined}
+                              role="img"
+                              style={undefined}
+                              viewBox="0 0 10 5"
+                              width="10"
+                            >
+                              <title>
+                                choose a number
+                              </title>
+                              <path
+                                d="M0 0l5 4.998L10 0z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                        <label
+                          className="bx--label"
+                          htmlFor="tj-input"
+                        >
+                           
+                        </label>
+                        <input
+                          disabled={false}
+                          id="tj-input"
+                          max={undefined}
+                          min={undefined}
+                          onChange={[Function]}
+                          onClick={[Function]}
+                          pattern="[0-9]*"
+                          step={1}
+                          type="number"
+                          value={121}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                   seconds, then increase 
+                  <div
+                    className="form-input-inline"
+                  >
+                    <div
+                      className="bx--form-item"
+                    >
+                      <div
+                        className="bx--number form-input-5"
+                      >
+                        <div
+                          className="bx--number__controls"
+                        >
+                          <button
+                            className="bx--number__control-btn up-icon"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <svg
+                              alt="choose a number"
+                              aria-label="choose a number"
+                              className="up-icon"
+                              fill={undefined}
+                              fillRule="evenodd"
+                              height="5"
+                              name={undefined}
+                              role="img"
+                              style={undefined}
+                              viewBox="0 0 10 5"
+                              width="10"
+                            >
+                              <title>
+                                choose a number
+                              </title>
+                              <path
+                                d="M0 5L5 .002 10 5z"
+                              />
+                            </svg>
+                          </button>
+                          <button
+                            className="bx--number__control-btn down-icon"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <svg
+                              alt="choose a number"
+                              aria-label="choose a number"
+                              className="down-icon"
+                              fill={undefined}
+                              fillRule="evenodd"
+                              height="5"
+                              name={undefined}
+                              role="img"
+                              style={undefined}
+                              viewBox="0 0 10 5"
+                              width="10"
+                            >
+                              <title>
+                                choose a number
+                              </title>
+                              <path
+                                d="M0 0l5 4.998L10 0z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                        <label
+                          className="bx--label"
+                          htmlFor="tj-input"
+                        >
+                           
+                        </label>
+                        <input
+                          disabled={false}
+                          id="tj-input"
+                          max={undefined}
+                          min={undefined}
+                          onChange={[Function]}
+                          onClick={[Function]}
+                          pattern="[0-9]*"
+                          step={1}
+                          type="number"
+                          value={1}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                   
+                  <div
+                    className="form-input-inline form-input-8"
+                  >
+                    <div
+                      aria-invalid={undefined}
+                      aria-label="Choose an item"
+                      className="bx--dropdown bx--list-box"
+                      data-invalid={undefined}
+                      onClick={[Function]}
+                      onKeyDown={[Function]}
+                      role="listbox"
+                      tabIndex="0"
+                    >
+                      <div
+                        aria-expanded={false}
+                        aria-haspopup={true}
+                        aria-label="open menu"
+                        className="bx--list-box__field"
+                        data-toggle={true}
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="button"
+                        tabIndex="0"
+                        type="button"
+                      >
+                        <span
+                          className="bx--list-box__label"
+                          htmlFor="downshift-2-input"
+                        >
+                          instance(s)
+                        </span>
+                        <div
+                          className="bx--list-box__menu-icon"
+                        >
+                          <svg
+                            alt="Open menu"
+                            aria-label="Open menu"
+                            className={undefined}
+                            fill={undefined}
+                            fillRule="evenodd"
+                            height="5"
+                            name={undefined}
+                            role="img"
+                            style={undefined}
+                            viewBox="0 0 10 5"
+                            width="10"
+                          >
+                            <title>
+                              Open menu
+                            </title>
+                            <path
+                              d="M0 0l5 4.998L10 0z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                   .
+                </span>
+              </div>
+              <svg
+                alt="Provide a description that will be used as the title"
+                aria-label="Provide a description that will be used as the title"
+                className="as-expand-icon as-expand-icon-show"
+                fill="#3d70b2"
+                fillRule="evenodd"
+                height="7"
+                name="icon--chevron--down"
+                onClick={[Function]}
+                role="img"
+                style={undefined}
+                viewBox="0 0 12 7"
+                width="12"
+              >
+                <title>
+                  Provide a description that will be used as the title
+                </title>
+                <path
+                  d="M6.002 5.55L11.27 0l.726.685L6.003 7 0 .685.726 0z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className="bx--tile trigger-tile"
+          >
+            <div
+              className="tileAboveTheFoldContent"
+            >
+              <div
+                className="sub-title"
+              >
+                <span>
+                  Rule 2
+                </span>
+                <svg
+                  alt="Provide a description that will be used as the title"
+                  aria-label="Provide a description that will be used as the title"
+                  className="remove-btn"
+                  fill="#3d70b2"
+                  fillRule="evenodd"
+                  height="10"
+                  name="icon--close"
+                  onClick={[Function]}
+                  role="img"
+                  style={undefined}
+                  viewBox="0 0 10 10"
+                  width="10"
+                >
+                  <title>
+                    Provide a description that will be used as the title
+                  </title>
+                  <path
+                    d="M6.32 5L10 8.68 8.68 10 5 6.32 1.32 10 0 8.68 3.68 5 0 1.32 1.32 0 5 3.68 8.68 0 10 1.32 6.32 5z"
+                  />
+                </svg>
+              </div>
+              <div
+                className="rule-des"
+              >
+                <span>
+                  If average 
+                  <div
+                    className="form-input-inline form-input-10"
+                  >
+                    <div
+                      aria-invalid={undefined}
+                      aria-label="Choose an item"
+                      className="bx--dropdown bx--list-box"
+                      data-invalid={undefined}
+                      onClick={[Function]}
+                      onKeyDown={[Function]}
+                      role="listbox"
+                      tabIndex="0"
+                    >
+                      <div
+                        aria-expanded={false}
+                        aria-haspopup={true}
+                        aria-label="open menu"
+                        className="bx--list-box__field"
+                        data-toggle={true}
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="button"
+                        tabIndex="0"
+                        type="button"
+                      >
+                        <span
+                          className="bx--list-box__label"
+                          htmlFor="downshift-3-input"
+                        >
+                          Memory Used
+                        </span>
+                        <div
+                          className="bx--list-box__menu-icon"
+                        >
+                          <svg
+                            alt="Open menu"
+                            aria-label="Open menu"
+                            className={undefined}
+                            fill={undefined}
+                            fillRule="evenodd"
+                            height="5"
+                            name={undefined}
+                            role="img"
+                            style={undefined}
+                            viewBox="0 0 10 5"
+                            width="10"
+                          >
+                            <title>
+                              Open menu
+                            </title>
+                            <path
+                              d="M0 0l5 4.998L10 0z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                   
+                  <div
+                    className="form-input-inline form-input-5"
+                  >
+                    <div
+                      aria-invalid={undefined}
+                      aria-label="Choose an item"
+                      className="bx--dropdown bx--list-box"
+                      data-invalid={undefined}
+                      onClick={[Function]}
+                      onKeyDown={[Function]}
+                      role="listbox"
+                      tabIndex="0"
+                    >
+                      <div
+                        aria-expanded={false}
+                        aria-haspopup={true}
+                        aria-label="open menu"
+                        className="bx--list-box__field"
+                        data-toggle={true}
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="button"
+                        tabIndex="0"
+                        type="button"
+                      >
+                        <span
+                          className="bx--list-box__label"
+                          htmlFor="downshift-4-input"
+                        >
+                          &lt;
+                        </span>
+                        <div
+                          className="bx--list-box__menu-icon"
+                        >
+                          <svg
+                            alt="Open menu"
+                            aria-label="Open menu"
+                            className={undefined}
+                            fill={undefined}
+                            fillRule="evenodd"
+                            height="5"
+                            name={undefined}
+                            role="img"
+                            style={undefined}
+                            viewBox="0 0 10 5"
+                            width="10"
+                          >
+                            <title>
+                              Open menu
+                            </title>
+                            <path
+                              d="M0 0l5 4.998L10 0z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                   
+                  <div
+                    className="form-input-inline"
+                  >
+                    <div
+                      className="bx--form-item"
+                    >
+                      <div
+                        className="bx--number form-input-5"
+                      >
+                        <div
+                          className="bx--number__controls"
+                        >
+                          <button
+                            className="bx--number__control-btn up-icon"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <svg
+                              alt="choose a number"
+                              aria-label="choose a number"
+                              className="up-icon"
+                              fill={undefined}
+                              fillRule="evenodd"
+                              height="5"
+                              name={undefined}
+                              role="img"
+                              style={undefined}
+                              viewBox="0 0 10 5"
+                              width="10"
+                            >
+                              <title>
+                                choose a number
+                              </title>
+                              <path
+                                d="M0 5L5 .002 10 5z"
+                              />
+                            </svg>
+                          </button>
+                          <button
+                            className="bx--number__control-btn down-icon"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <svg
+                              alt="choose a number"
+                              aria-label="choose a number"
+                              className="down-icon"
+                              fill={undefined}
+                              fillRule="evenodd"
+                              height="5"
+                              name={undefined}
+                              role="img"
+                              style={undefined}
+                              viewBox="0 0 10 5"
+                              width="10"
+                            >
+                              <title>
+                                choose a number
+                              </title>
+                              <path
+                                d="M0 0l5 4.998L10 0z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                        <label
+                          className="bx--label"
+                          htmlFor="tj-input"
+                        >
+                           
+                        </label>
+                        <input
+                          disabled={false}
+                          id="tj-input"
+                          max={undefined}
+                          min={undefined}
+                          onChange={[Function]}
+                          onClick={[Function]}
+                          pattern="[0-9]*"
+                          step={1}
+                          type="number"
+                          value={30}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                   
+                  <nobr>
+                    MB
+                  </nobr>
+                   for 
+                  <div
+                    className="form-input-inline"
+                  >
+                    <div
+                      className="bx--form-item"
+                    >
+                      <div
+                        className="bx--number form-input-5"
+                      >
+                        <div
+                          className="bx--number__controls"
+                        >
+                          <button
+                            className="bx--number__control-btn up-icon"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <svg
+                              alt="choose a number"
+                              aria-label="choose a number"
+                              className="up-icon"
+                              fill={undefined}
+                              fillRule="evenodd"
+                              height="5"
+                              name={undefined}
+                              role="img"
+                              style={undefined}
+                              viewBox="0 0 10 5"
+                              width="10"
+                            >
+                              <title>
+                                choose a number
+                              </title>
+                              <path
+                                d="M0 5L5 .002 10 5z"
+                              />
+                            </svg>
+                          </button>
+                          <button
+                            className="bx--number__control-btn down-icon"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <svg
+                              alt="choose a number"
+                              aria-label="choose a number"
+                              className="down-icon"
+                              fill={undefined}
+                              fillRule="evenodd"
+                              height="5"
+                              name={undefined}
+                              role="img"
+                              style={undefined}
+                              viewBox="0 0 10 5"
+                              width="10"
+                            >
+                              <title>
+                                choose a number
+                              </title>
+                              <path
+                                d="M0 0l5 4.998L10 0z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                        <label
+                          className="bx--label"
+                          htmlFor="tj-input"
+                        >
+                           
+                        </label>
+                        <input
+                          disabled={false}
+                          id="tj-input"
+                          max={undefined}
+                          min={undefined}
+                          onChange={[Function]}
+                          onClick={[Function]}
+                          pattern="[0-9]*"
+                          step={1}
+                          type="number"
+                          value={121}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                   seconds, then decrease 
+                  <div
+                    className="form-input-inline"
+                  >
+                    <div
+                      className="bx--form-item"
+                    >
+                      <div
+                        className="bx--number form-input-5"
+                      >
+                        <div
+                          className="bx--number__controls"
+                        >
+                          <button
+                            className="bx--number__control-btn up-icon"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <svg
+                              alt="choose a number"
+                              aria-label="choose a number"
+                              className="up-icon"
+                              fill={undefined}
+                              fillRule="evenodd"
+                              height="5"
+                              name={undefined}
+                              role="img"
+                              style={undefined}
+                              viewBox="0 0 10 5"
+                              width="10"
+                            >
+                              <title>
+                                choose a number
+                              </title>
+                              <path
+                                d="M0 5L5 .002 10 5z"
+                              />
+                            </svg>
+                          </button>
+                          <button
+                            className="bx--number__control-btn down-icon"
+                            disabled={false}
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <svg
+                              alt="choose a number"
+                              aria-label="choose a number"
+                              className="down-icon"
+                              fill={undefined}
+                              fillRule="evenodd"
+                              height="5"
+                              name={undefined}
+                              role="img"
+                              style={undefined}
+                              viewBox="0 0 10 5"
+                              width="10"
+                            >
+                              <title>
+                                choose a number
+                              </title>
+                              <path
+                                d="M0 0l5 4.998L10 0z"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                        <label
+                          className="bx--label"
+                          htmlFor="tj-input"
+                        >
+                           
+                        </label>
+                        <input
+                          disabled={false}
+                          id="tj-input"
+                          max={undefined}
+                          min={undefined}
+                          onChange={[Function]}
+                          onClick={[Function]}
+                          pattern="[0-9]*"
+                          step={1}
+                          type="number"
+                          value={1}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                   
+                  <div
+                    className="form-input-inline form-input-8"
+                  >
+                    <div
+                      aria-invalid={undefined}
+                      aria-label="Choose an item"
+                      className="bx--dropdown bx--list-box"
+                      data-invalid={undefined}
+                      onClick={[Function]}
+                      onKeyDown={[Function]}
+                      role="listbox"
+                      tabIndex="0"
+                    >
+                      <div
+                        aria-expanded={false}
+                        aria-haspopup={true}
+                        aria-label="open menu"
+                        className="bx--list-box__field"
+                        data-toggle={true}
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="button"
+                        tabIndex="0"
+                        type="button"
+                      >
+                        <span
+                          className="bx--list-box__label"
+                          htmlFor="downshift-5-input"
+                        >
+                          instance(s)
+                        </span>
+                        <div
+                          className="bx--list-box__menu-icon"
+                        >
+                          <svg
+                            alt="Open menu"
+                            aria-label="Open menu"
+                            className={undefined}
+                            fill={undefined}
+                            fillRule="evenodd"
+                            height="5"
+                            name={undefined}
+                            role="img"
+                            style={undefined}
+                            viewBox="0 0 10 5"
+                            width="10"
+                          >
+                            <title>
+                              Open menu
+                            </title>
+                            <path
+                              d="M0 0l5 4.998L10 0z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                   .
+                </span>
+              </div>
+              <svg
+                alt="Provide a description that will be used as the title"
+                aria-label="Provide a description that will be used as the title"
+                className="as-expand-icon as-expand-icon-show"
+                fill="#3d70b2"
+                fillRule="evenodd"
+                height="7"
+                name="icon--chevron--down"
+                onClick={[Function]}
+                role="img"
+                style={undefined}
+                viewBox="0 0 12 7"
+                width="12"
+              >
+                <title>
+                  Provide a description that will be used as the title
+                </title>
+                <path
+                  d="M6.002 5.55L11.27 0l.726.685L6.003 7 0 .685.726 0z"
+                />
+              </svg>
+            </div>
+          </div>
+          <a
+            className="bx--tile bx--tile--clickable"
+            href={undefined}
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <div
+              className="add-new"
+            >
+              <svg
+                alt="Provide a description that will be used as the title"
+                aria-label="Provide a description that will be used as the title"
+                className={undefined}
+                fill="#5d686f"
+                fillRule="evenodd"
+                height="10"
+                name="icon--add"
+                role="img"
+                style={undefined}
+                viewBox="0 0 10 10"
+                width="10"
+              >
+                <title>
+                  Provide a description that will be used as the title
+                </title>
+                <path
+                  d="M6 4h4v2H6v4H4V6H0V4h4V0h2v4z"
+                />
+              </svg>
+              <span>
+                Add A Rule
+              </span>
+            </div>
+          </a>
+          <div
+            className="bx--tile fake-tile"
+          >
+            <button
+              className="policy-form-btn bx--btn bx--btn--primary"
+              disabled={false}
+              onClick={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <span>
+                Add A Rule
+              </span>
+              <svg
+                alt="Provide icon description if icon is used"
+                aria-label="Provide icon description if icon is used"
+                className="bx--btn__icon"
+                fill={undefined}
+                fillRule="evenodd"
+                height="10"
+                name="icon--add"
+                role="img"
+                style={undefined}
+                viewBox="0 0 10 10"
+                width="10"
+              >
+                <title>
+                  Provide icon description if icon is used
+                </title>
+                <path
+                  d="M6 4h4v2H6v4H4V6H0V4h4V0h2v4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      className="bx--accordion__item"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      open={false}
+      role="presentation"
+    >
+      <button
+        className="bx--accordion__heading"
+        onClick={[Function]}
+        role="tab"
+        type="button"
+      >
+        <svg
+          alt="Expand/Collapse"
+          aria-label="Expand/Collapse"
+          className="bx--accordion__arrow"
+          fill={undefined}
+          fillRule="evenodd"
+          height="12"
+          name={undefined}
+          role="img"
+          style={undefined}
+          viewBox="0 0 7 12"
+          width="7"
+        >
+          <title>
+            Expand/Collapse
+          </title>
+          <path
+            d="M5.569 5.994L0 .726.687 0l6.336 5.994-6.335 6.002L0 11.27z"
+          />
+        </svg>
+        <div
+          className="bx--accordion__title"
+        >
+          <div
+            className="title"
+          >
+            <span>
+              Schedules
+            </span>
+          </div>
+        </div>
+      </button>
+      <div
+        className="bx--accordion__content"
+      >
+        <div
+          className="formTriggersDescription"
+        >
+          <div
+            className="sub-title inline"
+          >
+            <span>
+              Time Zone:
+            </span>
+          </div>
+          <div
+            className="inline"
+          >
+            <div
+              aria-invalid={undefined}
+              aria-label="Choose an item"
+              className="bx--dropdown as-timezone form-input-12 bx--list-box"
+              data-invalid={undefined}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="listbox"
+              tabIndex="0"
+            >
+              <div
+                aria-expanded={false}
+                aria-haspopup={true}
+                aria-label="open menu"
+                className="bx--list-box__field"
+                data-toggle={true}
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="bx--list-box__label"
+                  htmlFor="downshift-6-input"
+                >
+                  UTC
+                </span>
+                <div
+                  className="bx--list-box__menu-icon"
+                >
+                  <svg
+                    alt="Open menu"
+                    aria-label="Open menu"
+                    className={undefined}
+                    fill={undefined}
+                    fillRule="evenodd"
+                    height="5"
+                    name={undefined}
+                    role="img"
+                    style={undefined}
+                    viewBox="0 0 10 5"
+                    width="10"
+                  >
+                    <title>
+                      Open menu
+                    </title>
+                    <path
+                      d="M0 0l5 4.998L10 0z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="formTriggersDescription"
+        >
+          <div
+            className="sub-title"
+          >
+            <span>
+              Recurring Schedules:
+            </span>
+          </div>
+          <a
+            className="bx--tile bx--tile--clickable"
+            href={undefined}
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <div
+              className="add-new"
+            >
+              <svg
+                alt="Provide a description that will be used as the title"
+                aria-label="Provide a description that will be used as the title"
+                className={undefined}
+                fill="#5d686f"
+                fillRule="evenodd"
+                height="10"
+                name="icon--add"
+                role="img"
+                style={undefined}
+                viewBox="0 0 10 10"
+                width="10"
+              >
+                <title>
+                  Provide a description that will be used as the title
+                </title>
+                <path
+                  d="M6 4h4v2H6v4H4V6H0V4h4V0h2v4z"
+                />
+              </svg>
+              <span>
+                Add A Recurring Schedule
+              </span>
+            </div>
+          </a>
+          <div
+            className="bx--tile fake-tile"
+          >
+            <button
+              className="policy-form-btn bx--btn bx--btn--primary"
+              disabled={false}
+              onClick={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <span>
+                Add A Recurring Schedule
+              </span>
+              <svg
+                alt="Provide icon description if icon is used"
+                aria-label="Provide icon description if icon is used"
+                className="bx--btn__icon"
+                fill={undefined}
+                fillRule="evenodd"
+                height="10"
+                name="icon--add"
+                role="img"
+                style={undefined}
+                viewBox="0 0 10 10"
+                width="10"
+              >
+                <title>
+                  Provide icon description if icon is used
+                </title>
+                <path
+                  d="M6 4h4v2H6v4H4V6H0V4h4V0h2v4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div
+          className="specific-form"
+        >
+          <div
+            className="formTriggersDescription"
+          >
+            <div
+              className="sub-title"
+            >
+              <span>
+                Specific Dates:
+              </span>
+            </div>
+          </div>
+          <div
+            className="rule-des"
+          >
+            <span>
+              The specific date schedule takes precedence of the recurring schedule if there is overlap.
+            </span>
+          </div>
+          <table
+            style={
+              Object {
+                "borderColor": "black",
+                "borderWidth": 10,
+                "marginTop": "0.25em",
+                "width": "100%",
+              }
+            }
+          >
+            <thead>
+              <tr
+                className="recurring-title"
+              >
+                <th
+                  colSpan={2}
+                  width="24%"
+                >
+                  <div
+                    className="bx--tooltip__trigger"
+                  >
+                    Start Date & Time
+                    <div
+                      aria-expanded={false}
+                      aria-haspopup="true"
+                      id="trigger_input_startdatetime_tooltip"
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseOut={[Function]}
+                      onMouseOver={[Function]}
+                      role="button"
+                      tabIndex="0"
+                    >
+                      <svg
+                        alt="tooltip"
+                        aria-label="tooltip"
+                        className={undefined}
+                        fill={undefined}
+                        fillRule="evenodd"
+                        height="16"
+                        name={undefined}
+                        role="img"
+                        style={undefined}
+                        viewBox="0 0 16 16"
+                        width="16"
+                      >
+                        <title>
+                          tooltip
+                        </title>
+                        <path
+                          d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 4c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1zm2 8H6v-1h1V8H6V7h3v4h1v1z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </th>
+                <th
+                  colSpan={2}
+                  width="24%"
+                >
+                  <div
+                    className="bx--tooltip__trigger"
+                  >
+                    End Date & Time
+                    <div
+                      aria-expanded={false}
+                      aria-haspopup="true"
+                      id="trigger_input_enddatetime_tooltip"
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseOut={[Function]}
+                      onMouseOver={[Function]}
+                      role="button"
+                      tabIndex="0"
+                    >
+                      <svg
+                        alt="tooltip"
+                        aria-label="tooltip"
+                        className={undefined}
+                        fill={undefined}
+                        fillRule="evenodd"
+                        height="16"
+                        name={undefined}
+                        role="img"
+                        style={undefined}
+                        viewBox="0 0 16 16"
+                        width="16"
+                      >
+                        <title>
+                          tooltip
+                        </title>
+                        <path
+                          d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 4c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1zm2 8H6v-1h1V8H6V7h3v4h1v1z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </th>
+                <th
+                  width="16%"
+                >
+                  <div
+                    className="bx--tooltip__trigger"
+                  >
+                    Minimum Instance Count
+                    <div
+                      aria-expanded={false}
+                      aria-haspopup="true"
+                      id="trigger_input_schedule_minimum_tooltip"
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseOut={[Function]}
+                      onMouseOver={[Function]}
+                      role="button"
+                      tabIndex="0"
+                    >
+                      <svg
+                        alt="tooltip"
+                        aria-label="tooltip"
+                        className={undefined}
+                        fill={undefined}
+                        fillRule="evenodd"
+                        height="16"
+                        name={undefined}
+                        role="img"
+                        style={undefined}
+                        viewBox="0 0 16 16"
+                        width="16"
+                      >
+                        <title>
+                          tooltip
+                        </title>
+                        <path
+                          d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 4c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1zm2 8H6v-1h1V8H6V7h3v4h1v1z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </th>
+                <th
+                  width="16%"
+                >
+                  <div
+                    className="bx--tooltip__trigger"
+                  >
+                    Initial Minimum Instance Count
+                    <div
+                      aria-expanded={false}
+                      aria-haspopup="true"
+                      id="trigger_input_schedule_initial_minimum_tooltip"
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseOut={[Function]}
+                      onMouseOver={[Function]}
+                      role="button"
+                      tabIndex="0"
+                    >
+                      <svg
+                        alt="tooltip"
+                        aria-label="tooltip"
+                        className={undefined}
+                        fill={undefined}
+                        fillRule="evenodd"
+                        height="16"
+                        name={undefined}
+                        role="img"
+                        style={undefined}
+                        viewBox="0 0 16 16"
+                        width="16"
+                      >
+                        <title>
+                          tooltip
+                        </title>
+                        <path
+                          d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 4c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1zm2 8H6v-1h1V8H6V7h3v4h1v1z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </th>
+                <th
+                  width="16%"
+                >
+                  <div
+                    className="bx--tooltip__trigger"
+                  >
+                    Maximum Instance Count
+                    <div
+                      aria-expanded={false}
+                      aria-haspopup="true"
+                      id="trigger_input_schedule_maximum_tooltip"
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseOut={[Function]}
+                      onMouseOver={[Function]}
+                      role="button"
+                      tabIndex="0"
+                    >
+                      <svg
+                        alt="tooltip"
+                        aria-label="tooltip"
+                        className={undefined}
+                        fill={undefined}
+                        fillRule="evenodd"
+                        height="16"
+                        name={undefined}
+                        role="img"
+                        style={undefined}
+                        viewBox="0 0 16 16"
+                        width="16"
+                      >
+                        <title>
+                          tooltip
+                        </title>
+                        <path
+                          d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 4c.6 0 1 .4 1 1s-.4 1-1 1-1-.4-1-1 .4-1 1-1zm2 8H6v-1h1V8H6V7h3v4h1v1z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </th>
+                <th
+                  width="4%"
+                >
+                  <span>
+                    Remove
+                  </span>
+                </th>
+              </tr>
+            </thead>
+            <tbody />
+          </table>
+          <a
+            className="bx--tile bx--tile--clickable"
+            href={undefined}
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <div
+              className="add-new"
+            >
+              <svg
+                alt="Provide a description that will be used as the title"
+                aria-label="Provide a description that will be used as the title"
+                className={undefined}
+                fill="#5d686f"
+                fillRule="evenodd"
+                height="10"
+                name="icon--add"
+                role="img"
+                style={undefined}
+                viewBox="0 0 10 10"
+                width="10"
+              >
+                <title>
+                  Provide a description that will be used as the title
+                </title>
+                <path
+                  d="M6 4h4v2H6v4H4V6H0V4h4V0h2v4z"
+                />
+              </svg>
+              <span>
+                Add A Specific Date
+              </span>
+            </div>
+          </a>
+          <div
+            className="bx--tile fake-tile"
+          >
+            <button
+              className="policy-form-btn bx--btn bx--btn--primary"
+              disabled={false}
+              onClick={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <span>
+                Add A Specific Date
+              </span>
+              <svg
+                alt="Provide icon description if icon is used"
+                aria-label="Provide icon description if icon is used"
+                className="bx--btn__icon"
+                fill={undefined}
+                fillRule="evenodd"
+                height="10"
+                name="icon--add"
+                role="img"
+                style={undefined}
+                viewBox="0 0 10 10"
+                width="10"
+              >
+                <title>
+                  Provide icon description if icon is used
+                </title>
+                <path
+                  d="M6 4h4v2H6v4H4V6H0V4h4V0h2v4z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <div
+    className="bottom-button"
+  >
+    <button
+      className="policy-form-btn bx--btn bx--btn--primary"
+      disabled={false}
+      onClick={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span>
+        Save
+      </span>
+      <svg
+        alt="Provide icon description if icon is used"
+        aria-label="Provide icon description if icon is used"
+        className="bx--btn__icon"
+        fill={undefined}
+        fillRule="evenodd"
+        height="16"
+        name="icon--save"
+        role="img"
+        style={undefined}
+        viewBox="0 0 16 16"
+        width="16"
+      >
+        <title>
+          Provide icon description if icon is used
+        </title>
+        <path
+          d="M12 1.597v2.406a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V1H1v14h3V9a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v6h3V4.702l-3-3.105zM1 0h10.848L16 4.298V15a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1zm10 9H5v5.992l6 .007V9zM5 1v3.003h6V1H5z"
+        />
+      </svg>
+    </button>
+    <button
+      className="policy-form-btn bx--btn bx--btn--primary"
+      disabled={false}
+      onClick={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span>
+        Cancel Change
+      </span>
+      <svg
+        alt="Provide icon description if icon is used"
+        aria-label="Provide icon description if icon is used"
+        className="bx--btn__icon"
+        fill={undefined}
+        fillRule="evenodd"
+        height="16"
+        name="icon--restart"
+        role="img"
+        style={undefined}
+        viewBox="0 0 13 16"
+        width="13"
+      >
+        <title>
+          Provide icon description if icon is used
+        </title>
+        <path
+          d="M10.948 3L8.542.727 9.23 0 13 3.564 9.228 7.108l-.685-.729L11.075 4H6.5A5.5 5.5 0 1 0 12 9.5h1A6.5 6.5 0 1 1 6.5 3h4.448z"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="bx--modal bx--modal-tall"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onTransitionEnd={undefined}
+    role="presentation"
+    tabIndex={-1}
+  >
+    <div
+      aria-label={undefined}
+      className="bx--modal-container"
+      role="dialog"
+    >
+      <div
+        className="bx--modal-header"
+      >
+        
+        <h2
+          className="bx--modal-header__heading"
+        >
+          There are unsaved changes. Would you like to save the policy?
+        </h2>
+        <button
+          className="bx--modal-close"
+          onClick={[Function]}
+          type="button"
+        >
+          <svg
+            alt="close the modal"
+            aria-label="close the modal"
+            className="bx--modal-close__icon"
+            fill={undefined}
+            fillRule="evenodd"
+            height="10"
+            name={undefined}
+            role="img"
+            style={undefined}
+            viewBox="0 0 10 10"
+            width="10"
+          >
+            <title>
+              close the modal
+            </title>
+            <path
+              d="M6.32 5L10 8.68 8.68 10 5 6.32 1.32 10 0 8.68 3.68 5 0 1.32 1.32 0 5 3.68 8.68 0 10 1.32 6.32 5z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        className="bx--modal-content"
+      />
+      <div
+        className="bx--modal-footer"
+      >
+        <div
+          className="bx--modal__buttons-container"
+        >
+          <button
+            className="bx--btn bx--btn--secondary"
+            disabled={false}
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Ignore and continue
+          </button>
+          <button
+            className="bx--btn bx--btn--primary"
+            disabled={false}
+            inputref={
+              Object {
+                "current": null,
+              }
+            }
+            onClick={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Save
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
