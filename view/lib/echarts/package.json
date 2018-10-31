@@ -1,0 +1,25 @@
+{
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ecomfe/echarts/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "erik",
+      "email": "errorrik@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "zrender": "4.0.4"
+  },
+  "deprecated": false,
+  "description": "A powerful charting and visualization library for browser",
+  "homepage": "http://echarts.baidu.com/",
+  "keywords": [
+    "visualization",
+    "canvas"
+  ],
+  "name": "echarts",
+  "version": "4.1.0"
+}
