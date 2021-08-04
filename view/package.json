@@ -28,7 +28,7 @@
     "react-intl": "^2.4.0",
     "fs": "^0.0.1-security",
     "echarts": "file:lib/echarts",
-    "echarts-for-react": "2.0.8",
+    "echarts-for-react": "2.0.16",
     "intersect": "^1.0.1",
     "moment-range": "^3.1.1",
     "clipboard": "^2.0.0",
